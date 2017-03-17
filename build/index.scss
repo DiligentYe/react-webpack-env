@@ -1,0 +1,109 @@
+html,
+body {
+    height: 100%;
+    // background-color: #f90;
+    overflow: hidden;
+    .wrapper {
+        height: 100%;
+    }
+}
+
+.deskmark-note {
+    height: 100%;
+}
+
+.deskmark-note .page-header {
+    box-sizing: border-box;
+    height: 11%;
+    padding-bottom: 9px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+// .btn-own {
+// 	border-radius: 0px;
+// 	&:focus {
+// 		background-color: #fff;
+// 	}
+// 	&:hover, &:active {
+// 		color: #555;
+// 		background-color: #f5f5f5;
+// 	}
+// }
+// .deskmark-body .btn-create {
+// 	border: 0;
+// 	border-bottom: 1px solid #ccc;
+// }
+.deskmark-body {
+    box-sizing: border-box;
+    height: 83%;
+    border-bottom: 1px solid #eee;
+    border-top: 0;
+    // -moz-box-sizing: border-box;
+    // /* Firefox */
+    // -webkit-box-sizing: border-box;
+    // /* Safari */
+    .row {
+        box-sizing: border-box;
+        height: 100%;
+        .deskmark-list {
+            padding: 0;
+            box-sizing: border-box;
+            height: 100%;
+            border-left: 1px solid #eee;
+            border-right: 1px solid #eee;
+            .list-group-item-title {
+                color: #3c763d;
+                background-color: #dff0d8;
+            }
+            .list-group-item {
+                border-radius: 0;
+                border-left: 0;
+                border-right: 0;
+            }
+            overflow: scroll;
+        }
+        .deskmark-content {
+            box-sizing: border-box;
+            height: 100%;
+            border: 1px solid #eee;
+            border-bottom: 0;
+            border-left: 0;
+            border-top: 0;
+            overflow: scroll;
+            .top {
+            	margin: 20px 40px; 
+            	h3 {
+            		margin-top: 0; 
+            	}
+            }
+            .btn-group {
+                // padding-top: 15px;
+                .btn-defualt {
+                    border-radius: 0;
+                }
+            }
+            .form-group {
+                // margin-top: 15px;
+            }
+            .inputarea {
+                height: 80%;
+                width: 100%;
+                #md {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .detail {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.deskmark-footer {
+    box-sizing: border-size;
+    height: 6%;
+    text-align: center;
+    padding-top: 5px;
+}
